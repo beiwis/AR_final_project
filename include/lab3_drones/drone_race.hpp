@@ -30,6 +30,7 @@ public:
 
 private:
     // INFO: It is a convention to use _ for private variables and methods
+
     ros::NodeHandle nh_;
 
     //ROS publishers-suscribers

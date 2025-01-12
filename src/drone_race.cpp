@@ -120,7 +120,6 @@ void DroneRace::generateTrajectory_() {
     const float vel_gate_mod = 3.0; // desired velocity to cross the gate. Adjust for max performance
 
     mav_trajectory_generation::Vertex::Vector vertices;
-    // INCLUDE YOUR CODE HERE
 
     // Definition of the trajectory beginning, end and intermediate constraints
     mav_trajectory_generation::Vertex start(dimension), middlegate(dimension), end(dimension);
